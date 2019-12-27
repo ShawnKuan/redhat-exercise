@@ -1,0 +1,34 @@
+@import "variables";
+@import "custom";
+
+body {
+    background-image: radial-gradient(#bbb 10%, transparent 10%);
+    background-color: #f5f5f5;
+    background-position: 0 0, 50px 50px;
+    background-size: 20px 20px;
+}
+
+
+.panel-container {
+    margin-top: 200px;
+}
+
+.panel-title {
+    display: flex;
+    justify-content: space-between;
+}
+.panel-danger > .panel-heading .badge {
+    color: #ffffff;
+    background-color: #6f0000;
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+    .panel-container {
+        display: none;
+    }
+}
+@media (max-width: $screen-xs-max) {
+    .col-xs-12 {
+        padding: 0;
+    }
+}
