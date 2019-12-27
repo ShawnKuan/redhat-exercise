@@ -1,5 +1,5 @@
 {
-  "name": "RedHatIV",
+  "name": "redhat-exercise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "bootstrap-sass": "^3.4.1",
+    "del": "^5.1.0"
+  }
 }
