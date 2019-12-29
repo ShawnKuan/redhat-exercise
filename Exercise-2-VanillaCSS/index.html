@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Vanilla using Webpack</title>
-</head>
-<body>
-  <section class="p-strip--light is-bordered">
-    <div class="row">
-      <h1>Hello Vanilla!</h1>
-      <p>This page has been built using Webpack!</p>
-    </div>
-  </section>
-  <script src="./dist/bundle.js"></script>
-</body>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Redhat Exercise</title>
+        <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.5.0.min.css" />
+        <script src="https://kit.fontawesome.com/b6aeb5f381.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+       
+        <div class="container">
+
+            <section class="header">
+                <div class="header-left"><h1>Inventory</h1></div>
+                <div class="header-right"><a href="#">See details</a></div>
+            </section>
+
+            <section class="sub-header">
+                <div class="sub-header-title"><h2>Sub-title</h2></div>
+                <div class="description">Lorem ipsum dolor sit amet consectetur adipi sicing elit.</div>
+            </section>
+
+
+            <div class="content-row">
+                <div class="content-column">
+                    1 Cluster
+                </div>
+                <div class="content-column content-value">
+                    <i class="fas fa-check-circle success"></i> Healthy
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-column">
+                    4 Nodes
+                </div>
+                <div class="content-column content-value">
+                    <i class="fas fa-check-circle success"></i> Healthy
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-column">
+                    370 Pods
+                </div>
+                <div class="content-column content-value">
+                    <i class="fas fa-exclamation-triangle warning"></i> 2 Warnings
+                </div>
+            </div>
+            <div class="content-row">
+                <div class="content-column">
+                    9 Virtual Machines
+                </div>
+                <div class="content-column content-value">
+                    <i class="fas fa-exclamation-circle error"></i> 2 Errors
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
 </html>
